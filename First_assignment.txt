@@ -8,33 +8,33 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*  
+1. ls [A-Z]*  # Correct! Also uppercase
 Lists the directory contents in alphabetical order
-2. cp *.sh /tmp
+2. cp *.sh /tmp # Correct!
 Copies a source to a directory
-3. man pwd
+3. man pwd # Correct!
 Shows the user manual for the "pwd" command, which tells you your current path
-4. cd ~
+4. cd ~ # Correct!
 Changes your current directory to your home directory
-5. mkdir -p /test1/test2/test3
+5. mkdir -p /test1/test2/test3 # Correct! and the overwriting part is being takedn by `-p`
 Makes the directories test1/test2/test3 in that order, overwriting existing ones
-6. cp -r /tmp .
+6. cp -r /tmp .  # Correct!
 Recursively copies a source to a directory
-7. ls | less
+7. ls | less  # Correct!
 Lists the disrectory contents in an abridged fashion
-8. head -n 24 test.txt » abc.txt
+8. head -n 24 test.txt » abc.txt  # Correct!
 Prints the first 24 lines of test.txt through abc.txt 
-9. echo "aaa" > aaa.txt
+9. echo "aaa" > aaa.txt  # Correct!
 Prints the line "aaa" within the file aaa.txt (creates the file if not present)
-10. ps -u sallesina
+10. ps -u sallesina  # Correct! Try it in hoffman
 Reports a snapshot of the current processes for a given user "sallesina"
-11. top
+11. top  # Correct! Agin try ir in hoffman
 Displays the current LINUX tasks running
-12. ls | grep .sh | xargs mv /tmp
+12. ls | grep .sh | xargs mv /tmp  # Correct!
 List the directory contents of a retrieved file set that has been moved to "tmp" 
-13. du -sk /home/* | sort -r -n | head -10
+13. du -sk /home/* | sort -r -n | head -10  # Correct!
 Displays summaries of the files in the home directory by size, in reverse order, and then numerically sorted
-14. sort -r names.txt
+14. sort -r names.txt  # Correct!
 Sorts the lines of "names.txt" in reverse order
 
 **IMPORTANT** 
